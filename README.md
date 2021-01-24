@@ -41,7 +41,7 @@ wget https://packages.debian.org/stretch/armhf/libssl1.0.2/download
 sudo apt install ./<replace with file name>
 ```
 
-If all succeeded, you can see the video at [http://<your raspberry pi ip>:8080/stream](http://<your raspberry pi ip>:8080/stream)
+If all succeeded, you can see the video at [http://\<your raspberry pi ip>:8080/stream](http://<your raspberry pi ip>:8080/stream)
 
 ## Capture Video using OpenCV in Python
 
