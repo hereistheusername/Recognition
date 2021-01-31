@@ -1,1 +1,5 @@
 .vscode
+*.weights
+docs
+image_demo.py
+core/__pycache__/
