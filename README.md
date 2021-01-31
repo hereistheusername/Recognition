@@ -1,22 +1,51 @@
 # Recognition
 Use YOLO model detecting objects in video steam
 
-## Raspberry pi camera check
+## uv4l installation guide
 
-put `client.py` on Raspberry pi to send video stream to `server.py` on computer
+Assuming camera has been activated on Raspberry pi
 
-### Step 1 install dependencies
+```
+curl https://www.linux-projects.org/listing/uv4l_repo/lpkey.asc | sudo apt-key add -
+```
 
-execute this command both on Raspberry pi and computer
+```
+deb https://www.linux-projects.org/listing/uv4l_repo/raspbian/stretch stretch main
+```
 
-> pip install -r requirements.txt
+```
+sudo apt-get update
+sudo apt-get install uv4l uv4l-raspicam
+```
 
-### Step 2 start server
+```
+sudo apt-get install uv4l-raspicam-extras
+```
 
-> python server.py
+```
+sudo apt-get install uv4l-server uv4l-uvc uv4l-xscreen uv4l-mjpegstream uv4l-dummy uv4l-raspidisp
+```
 
-### Step 3 start client
+Then, restart service
 
-> python client.py -s \<server ip\>
+```
+sudo service uv4l_raspicam restart
+```
 
-Also can add `-D True` to start client on computer to debug
+
+
+If meet the problem that libssl1.0 is missing, do the following
+
+```
+wget https://packages.debian.org/stretch/armhf/libssl1.0.2/download
+sudo apt install ./<replace with file name>
+```
+
+If all succeeded, you can see the video at [http://\<your raspberry pi ip>:8080/stream](http://<your raspberry pi ip>:8080/stream)
+
+## Capture Video using OpenCV in Python
+
+```python
+vid = cv2.VideoCapture('http://<your raspberry pi ip>:8080/stream/video.mjpeg')
+```
+
