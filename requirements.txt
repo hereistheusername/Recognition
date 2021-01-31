@@ -1,0 +1,74 @@
+absl-py==0.11.0
+astunparse==1.6.3
+awscli==1.18.204
+botocore==1.19.44
+cachetools==4.1.1
+certifi==2020.12.5
+chardet==3.0.4
+click @ file:///home/linux1/recipes/ci/click_1610990599742/work
+colorama==0.4.3
+cycler==0.10.0
+docutils==0.15.2
+easydict==1.9
+Flask @ file:///home/ktietz/src/ci/flask_1611932660458/work
+flatbuffers==1.12
+gast==0.3.3
+google-auth==1.23.0
+google-auth-oauthlib==0.4.2
+google-pasta==0.2.0
+grpcio==1.32.0
+h5py==2.10.0
+idna==2.10
+itsdangerous @ file:///home/ktietz/src/ci/itsdangerous_1611932585308/work
+Jinja2 @ file:///home/linux1/recipes/ci/jinja2_1610990516718/work
+jmespath==0.10.0
+Keras-Preprocessing==1.1.2
+kiwisolver @ file:///tmp/build/80754af9/kiwisolver_1604014535162/work
+Markdown==3.3.3
+MarkupSafe==1.1.1
+matplotlib @ file:///tmp/build/80754af9/matplotlib-base_1603378225747/work
+mkl-fft==1.2.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+numpy==1.19.4
+oauthlib==3.1.0
+oidv6==1.0.5
+oidv6-to-voc==0.1.4
+olefile==0.46
+opencv-contrib-python==4.4.0.46
+opencv-python==4.4.0.46
+opt-einsum==3.3.0
+pandas==1.2.0
+pathlib==1.0.1
+Pillow @ file:///tmp/build/80754af9/pillow_1603822255246/work
+portpicker==1.3.1
+progressbar2==3.53.1
+protobuf==3.13.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pyparsing==2.4.7
+python-dateutil==2.8.1
+python-utils==2.4.0
+pytz==2018.4
+PyYAML==5.3.1
+requests==2.25.0
+requests-oauthlib==1.3.0
+rsa==4.5
+s3transfer==0.3.3
+scipy==1.5.4
+seaborn==0.11.1
+sip==4.19.13
+six @ file:///tmp/build/80754af9/six_1605205327372/work
+tb-nightly==2.5.0a20201120
+tensorboard==2.4.0
+tensorboard-plugin-wit==1.7.0
+tensorflow==2.4.0rc0
+tensorflow-estimator==2.3.0
+termcolor==1.1.0
+tf-estimator-nightly==2.5.0.dev2020122601
+tornado @ file:///tmp/build/80754af9/tornado_1606942300299/work
+tqdm==4.55.0
+typing-extensions==3.7.4.3
+urllib3==1.26.2
+Werkzeug @ file:///home/ktietz/src/ci/werkzeug_1611932622770/work
+wrapt==1.12.1
