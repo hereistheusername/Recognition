@@ -4,7 +4,7 @@ Use YOLO model detecting objects in video steam
 ## setup environment
 
 1. Restore the environment from requirements.txt or environment.yml
-2. Download [weights file](https://drive.google.com/file/d/1l4PCt0d8KqlHcwQQcUqADEpQ3GLyR0gI/view?usp=sharing) and put it in the root directory of the project
+2. Download [weights file](https://drive.google.com/file/d/1gh-uuP_zWm9l9av3n10DtIjXVjLGbzP4/view?usp=sharing) and put it in the root directory of the project
 3. Change video_url in the server.py
 
 ## uv4l installation guide
